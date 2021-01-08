@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function f() {
+        alert("Vous avez cliqué sur le bouton 1");
+      }
+      function g() {
+        alert("Vous avez survolé le bouton 2");
+      }
+      function h() {
+        alert("Vous avez cliqué 2 fois sur le bouton 3");
+      }
+    </script>
+  </head>
+  <body onload="alert('page chargée')">
+    <input type="button" value="Bouton1" onclick="f()" /> <br />
+    <input type="button" value="Bouton2" onmouseover="g()" /><br />
+    <input type="button" value="Bouton3" ondblclick="h()" /><br />
+  </body>
+</html>
